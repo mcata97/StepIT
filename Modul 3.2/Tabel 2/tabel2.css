@@ -1,0 +1,17 @@
+#day, #day th, #day td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#day {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#day tr th{
+    background-color: #95B3D7;
+}
+
+#day tr:nth-child(1) th:nth-child(1) {
+    background-color: white;
+}

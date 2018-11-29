@@ -1,0 +1,17 @@
+#crd,
+#crd th,
+#crd td {
+    padding: 10px;
+    border-top: 2px solid #4BACC5;
+}
+
+#crd {
+    border: 1px solid #4BACC5;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#crd tr:nth-child(1) th {
+    background-color: #4BACC5;
+    color: white;
+}

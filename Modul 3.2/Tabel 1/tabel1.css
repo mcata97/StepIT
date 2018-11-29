@@ -1,0 +1,15 @@
+#tour,
+#tour th,
+#tour td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#tour {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#tour tr td:nth-child(1) {
+    text-align: left;
+}

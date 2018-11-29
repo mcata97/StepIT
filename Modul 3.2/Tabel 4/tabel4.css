@@ -1,0 +1,34 @@
+#work,
+#work th,
+#work td {
+    padding: 10px;
+}
+
+
+#work thead th {
+    background-color: #91C4D5;
+}
+
+#work thead tr:nth-child(1) th {
+    background-color: #66A8BE;
+}
+
+#work tbody tr th {
+    background-color: #91C4D5;
+    text-align: left;
+}
+
+#work tbody tr td {
+    background-color: #D6EAF1;
+    text-align: center;
+}
+
+#work tfoot tr th {
+    background-color: #B1CC7F;
+    text-align: left;
+}
+
+#work tfoot tr td {
+    background-color: #D8E1C6;
+    text-align: center;
+}
