@@ -7,7 +7,7 @@
 * [Modul 2.2 - Ex1](https://mcata97.github.io/StepIT/Modul%202.2/Ex1/index.html)
 * [Modul 3.1 - Form](https://mcata97.github.io/StepIT/)
 * [Modul 3.2 - Tabel 1](https://mcata97.github.io/StepIT/Modul%203.2/Tabel%201/tabel1.html)
-* [Modul 3.2 - Tabel 2](https://mcata97.github.io/StepIT/Tabel%202/tabel2.html)
+* [Modul 3.2 - Tabel 2](https://mcata97.github.io/StepIT/Modul%203.2/Tabel%202/tabel2.html)
 * [Modul 3.2 - Tabel 3](https://mcata97.github.io/StepIT/Modul%203.2/Tabel%203/tabel3.html)
 * [Modul 3.2 - Tabel 4](https://mcata97.github.io/StepIT/Modul%203.2/Tabel%204/tabel4.html)
 * [Modul 3.2 - Tabel 5](https://mcata97.github.io/StepIT/Modul%203.2/Tabel%205/tabel5.html)
