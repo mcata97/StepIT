@@ -1,7 +1,7 @@
 # Projects for HTML&CSS Course 2018 - 2019
 [Step IT Academy, Bucharest](https://itstep.ro/)
 # Student : Marin Catalin Andrei
-* [Modul 1 - Recipe](https://github.com/mcata97/StepIT/blob/master/Modul%201/Recipe/)
+* [Modul 1 - Recipe](https://mcata97.github.io/StepIT/blob/master/Modul%201/Recipe/recipe.html)
 * [Modul 1 - Birdwatching](https://github.com/mcata97/StepIT/blob/master/Modul%201/)
 * [Modul 2.1 - Business card](https://github.com/mcata97/StepIT/tree/master/Modul%202.1/)
 * [Modul 2.2 - Ex1](https://github.com/mcata97/StepIT/tree/master/Modul%202.2/Ex1/)
