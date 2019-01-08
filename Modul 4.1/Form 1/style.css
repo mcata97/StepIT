@@ -1,92 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-html {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: sans-serif
 }
 
-header, h1 {
-  margin-bottom: 1px;
-  font-size: 30px;
+.writing {
+  text-align: right;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  color: #000859;
+  margin-right: 14px;
+  font-size: .9em
 }
 
-header, p {
-  margin-bottom: 35px;
-  font-size: 10px;
-}
 
 .container {
-  background-image: url(./1000_2048x2048_allipadwallpapers_com.jpg);
-  background-repeat: no-repeat;
+  margin: 5vh auto;
+  width: 30%;
+  height: 70vh;
+  background: url(bg.jpg);
   background-size: cover;
-  background-position: center;
-  padding: 20px;
-  width: 400px ;
-  margin: auto;
+  background-repeat: no-repeat;
+  padding: 1.5em
 }
 
-.container .gradient {
-  background-color: rgba(255, 255, 255, .5 );
-  padding: 40px;
-  margin: auto;
-  border-radius: 15px;
+.gradient {
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: .7em;
+  padding: 2em;
+  height: 100%;
+
 }
 
-
-label {
+.input {
   display: block;
+  border-radius: .5em;
+  border-style: none;
+  background-color: #F96302;
+  margin: 1em;
+  padding: 1em
 }
 
-
-.container .header {
-  text-align: right;
-  
+.input input {
+  display: block;
+  border-radius: .5em;
+  border-style: none;
+  width: 100%;
+  height: 3vh;
+  margin-top: 10px
 }
 
-.container .nameinput {
-  background-color: #F66700;
-  padding: 10px;
-  border-radius: 5px;
-  color: #ffffff;
-  margin: 10px 0 10px 0 ;
+.input label {
+  padding: 5px;
+  text-transform: uppercase;
+  color: white
 }
 
-.container .emailinput {
+.email {
   background-color: #00B7E6;
-  padding: 10px;
-  border-radius: 5px;
-  color: #ffffff;
-  margin: 10px 0 10px 0 ;
 }
 
-.container .ageinput {
-  background-color: #81CC00;
-  padding: 10px;
-  border-radius: 5px;
-  color: #ffffff;
-  margin: 10px 0 10px 0 ;
+.age {
+  background-color: #80CB04;
 }
 
+.submit {
+  margin: 0 auto;
+  margin-left: 5.5vw;
+  display: inline;
 
-label {
-  display: block;
+
 }
 
-input[type=submit] {
-  padding:10px 50px; 
-  margin: 30px 75px 50px 75px;
-  background:#ffffff; 
-  border:0 none;
-  cursor:pointer;
-  border-radius: 5px; 
-}
-
-input[type=text],
-input[type=email],
-input[type=number] {
-  width: 90%;
-  border-radius: 5px;
-  border: #ffffff solid;
-}
-
-form {
-  text-align: left;
+.submit input {
+  margin: 0 auto;
+  padding: 1.7vh 4vw 1.7vh;
+  font-size: 1rem;
+  font-weight: bolder;
+  border-radius: .5em;
+  background-color: #FFFFFF;
+  border-style: none;
 }
