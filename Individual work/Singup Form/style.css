@@ -1,0 +1,131 @@
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 300px;
+}
+
+/* Box desing */
+
+#main-box {
+    position: relative;
+    margin: 5% auto;
+    width: 600px;
+    height: 400px;
+    background: #fff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Left Box */
+
+.left-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+
+h1{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+/* Input desing */
+
+input[type="text"],
+input[type="password"]{
+    display: block;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 4px;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+input[type="submit"]{
+    margin-bottom: 30px;
+    widows: 120px;
+    height: 30px;
+    background-color: #1e0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+/* Right Box */
+.right-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.or {
+    position: absolute;
+    top: 180px;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    background-color: #1e0000;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+.right-box .signinwith {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+button.social {
+    margin-bottom: 30px;
+    width: 220px;
+    height: 40px;;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #0084b4;
+}
+
+.google {
+    background-color: #dd4b39;
+}
+
