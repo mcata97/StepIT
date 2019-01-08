@@ -16,7 +16,7 @@
 
 [Individual Work]
 * [Contact Form 1](https://mcata97.github.io/StepIT/Individual%20work/Contact%20Form%201)
-* [Sign Up Form ](https://mcata97.github.io/StepIT/Individual%20work/Singup%20Form)
+* [Sign Up Form ](https://mcata97.github.io/StepIT/Individual%20work/Signup%20Form)
 
 
 
