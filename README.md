@@ -15,4 +15,4 @@
 * [Modul 5.3 - Ex 1](https://mcata97.github.io/StepIT/Modul%205.3/Ex%201)
 
 [Individual Work]
-* [Contact Form 1](https://mcata97.github.io/StepIT/Contact%20Form%201)
+* [Contact Form 1](https://mcata97.github.io/StepIT/Individual%20work/Contact%20Form%201)
