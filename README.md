@@ -14,7 +14,6 @@
 * [Modul 4.1 - Form1](https://mcata97.github.io/StepIT/Modul4.1/Form1/index.html)
 * [Modul 5.3 - Ex 1](https://mcata97.github.io/StepIT/Modul5.3/Ex1)
 * [Modul 5.3 - Ex 2](https://mcata97.github.io/StepIT/Modul5.3/Ex2)
-* [Modul 6.1 - Simple Layout](https://mcata97.github.io/StepIT/Modul6.1/Aplicatie1)
 
 [Individual Work]
 * [Contact Form 1](https://mcata97.github.io/StepIT/Individualwork/ContactForm1)
