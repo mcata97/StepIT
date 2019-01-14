@@ -1,43 +1,304 @@
-/* Global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body, html {
+*:focus {
+    border: none;
+}
+
+section {
+    margin: 0 auto;
+    padding: 30px;
+
+    width: 100%;
+    height: 63vh;
+
+    background: linear-gradient(to bottom, #012e4f 50%, #00487E 90%, #023f6a 100%);
+}
+
+section:nth-of-type(2) {
+    height: 37vh;
+    background: #F4F4F4
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+
+    width: 1024px;
+}
+
+.logo {
+
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+
+    width: 240px;
+    height: 70px;
+
+}
+
+.logo img {
     width: 100%;
     height: 100%;
 }
 
-.container {
-    display: table;
-    margin: 0 auto;
-    width: 1024px;
+.buttons {
+    display: inline-block;
+    float: right;
+    width: 74.4%;
+
+    position: relative;
+    top: 25px;
+
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%);
 }
 
-.sectiune1 {
-    width: 100%;
-    background: linear-gradient(180deg, rgba(0,0,0,0.9836309523809523) 0%, rgba(7,81,224,1) 100%, rgba(255,255,255,0) 100%);
+.buttons button {
+    width: 187.47px;
+    height: 44px;
+
+    background: none;
+    border: none;
+
+    color: black;
+    font-size: 14px
 }
 
-.logo {
-    background-image: url(images/logo.png);
-    top: 10px;
-    float: left;
+.buttons button:hover {
+    background-image: -webkit-radial-gradient(137.01px 72.44px, 138px 61.44px, rgb(205, 206, 232) 5%, rgb(4, 95, 167) 99%);
+
+    color: white;
+    font-weight: bold;
+
+    box-shadow: inset 0 0 5px #000000;
+    border: none;
+
+}
+
+button:hover:nth-of-type(1) {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+
+button:hover:nth-of-type(4) {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+article {
+    clear: both;
+    width: 55%;
+
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+article h1 {
+    font-family: sans-serif;
+    font-size: 54px;
+    margin-bottom: 25px;
+    color: #CEE0F0;
+}
+
+article p {
+    color: #CEE0F0;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.details {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+
+    width: 220px;
+    height: 45px;
+
+    background: linear-gradient(to bottom, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%);
+    box-shadow: inset 5px -5px 10px rgba(rgb(0, 0, 2), rgb(0, 0, 0), rgb(0, 0, 0), 1);
+    border-radius: 4px;
+}
+
+.details button {
+    width: 220px;
+    height: 45px;
+
+    background: none;
+    border: none;
+
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.appstore {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    left: 20px;
+
     width: 200px;
-    height: 100px;
-    
+    height: 45px;
+
+    background-image: url(img/appStore.png);
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    border-radius: 4px;
 }
 
-nav {
-    background-color: grey;
+.appstore:hover {
+    background-image: url(img/appStore_n.png);
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    border-radius: 4px;
 }
 
-nav ul {
-    list-style: none;
-    text-align: center;
+.appstore button {
+    display: inline;
+    position: relative;
+    top: 0px;
+    width: 144px;
+    height: 50px;
+
+    background: none;
+    border: none;
+
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.star {
+    width: 35px;
+    height: 35px;
+    background: url("img/Gold_Star.svg   ");
+    background-size: contain;
+}
+
+.appranking {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.appranking div {
     display: inline-block;
 }
 
+.appranking h2 {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 
+    color: #265B96;
+}
+
+.platform {
+    display: inline-block;
+    position: relative;
+    bottom: -4;
+    clear: both;
+}
+
+.platform div {
+    display: inline-block;
+}
+
+.platform h2 {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 13px;
+
+    color: #265B96;
+}
+
+.platform p {
+    color: rgba(128, 128, 128, 0.7);
+    font-family: sans-serif
+}
+
+.download {
+    width: 100%;
+    height: 90px;
+    float: left;
+    display: inline-block;
+    clear: both;
+
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.264);
+    padding: 18px;
+
+}
+
+.text {
+    width: 75%;
+    display: inline-block;
+}
+
+.download h2,
+.download p {
+    font-family: sans-serif;
+}
+
+.download p {
+    font-size: 12px;
+}
+
+.download h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+.download-button {
+    float: right;
+    display: inline;
+    position: relative;
+    top: 8px;
+
+    width: 182px;
+    height: 40px;
+    background: url(img/download-button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    padding: 30px;
+    position: relative;
+    top: 15px;
+}
+
+.footer p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.7);
+}
+
+.footer p:nth-of-type(2) {
+    float: right;
+}
+
+.footer p:nth-of-type(1) {
+    float: left;
+}
+
+.phones {
+    position: absolute;
+    height: 345px;
+
+    bottom: 190px;
+    right: 255px
+}
