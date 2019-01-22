@@ -113,7 +113,7 @@ h2 {
 /* Sectiune 2 */
 
 .section2 {
-    background-color: lightgrey;
+    background-color: #d1d1d1;
 }
 
 /* box1 */
@@ -165,6 +165,7 @@ h2 {
 .box1 span {
     font-size: 6rem;
 }
+
 /* box1 */
 
 /* box2 */
@@ -183,6 +184,7 @@ h2 {
 .section2 div.box1:nth-child(2) div:first-of-type span {
     color: yellow;
 }
+
 /* box2 */
 
 .section2 div.box1:last-child {
@@ -206,6 +208,141 @@ h2 {
 .section2 div.box1:nth-child(3) div:first-of-type span {
     color: yellow;
 }
+
 /* box3 */
 
+
+.section2 .ppl img {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 100%;
+    margin-right: 20px;
+    float: left;
+}
+
+.section2 .weare h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+.section2 .weare p {
+    font-size: 2rem;
+    color: #5e5e5e;
+}
+
 /* Sectiune 2 */
+
+/* Sectiunea 3 */
+
+.section3 .payment img {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 100%;
+    margin-left: 20px;
+    float: right;
+}
+
+.section3 .getquick h2 {
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+.section3 .getquick p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #5e5e5e;
+}
+
+.section3 .learn {
+    text-align: center;
+    border: 0 none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(10, 120, 100);
+    color:white;
+    padding: 2rem 4rem;
+    border-radius: 3px;
+    display: inline-block;
+    box-shadow:5px 5px 5px 0 rgba(0,0,0,.29);
+    margin-top: 4rem;
+}
+
+.section3 .learn:hover {
+    background-color:rgb(2, 63, 49);
+    color: white;
+    box-shadow: none;
+}
+
+/* Sectiunea 3 */
+
+/* Sectiune 4 */
+
+
+/* Sectiune 4 */
+
+
+
+.section4 {
+    background-color: #d1d1d1;
+}
+
+.section4 .services1 {
+    float: left;
+    width: 50%;
+}
+
+.section4 .services1 .img img {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 100%;
+    margin-left: 20px;
+    float: left;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,.29);
+    margin-right: 20px;
+}
+
+.section4 .services1 .text h2 {
+    font-size: 3rem;
+    color: rgb(2, 63, 49);
+}
+
+.section4 .services1 .text p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #5e5e5e;
+    margin-bottom: 50px;
+}
+
+.section4 .services2 {
+    float: left;
+    width: 50%;
+}
+
+.section4 .services2 .img img {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 100%;
+    float: left;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,.29);
+    margin-right: 40px;
+}
+
+.section4 .services2 .text h2 {
+    font-size: 3rem;
+    color: rgb(2, 63, 49);
+    
+}
+
+.section4 .services2 .text p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #5e5e5e;
+    margin-bottom: 50px;
+}
+
+
+

@@ -33,6 +33,48 @@
         font-size: 2rem;
         line-height: 3rem;
     }
+
+    .section2 .weare {
+        float: left;
+        text-align: center;
+    }
+
+    .section2 .ppl img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .section3 .getquick {
+        float: left;
+        text-align: center;
+    }
+
+    .section3 .payment img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .section3 .learn {
+        display: block;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+    }
+
+    .section4 .img img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .section4 .text {
+        float: left;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:550px) {
