@@ -2,6 +2,7 @@
     .container {
         width: calc(100% - 100px);
     }
+
     html {
         font-size: 8px;
     }
@@ -11,24 +12,29 @@
     html {
         font-size: 8px;
     }
+
     .col1 {
         float: none;
     }
+
     .col2 {
         float: none;
         text-align: left;
         clear: both;
         padding-top: 2rem;
     }
+
     .box1 {
         float: none;
         width: 70%;
         display: table;
         margin: 2rem auto;
     }
+
     .section2 div.box1:last-child {
         margin: 2rem auto;
     }
+
     .section2 li {
         font-size: 2rem;
         line-height: 3rem;
@@ -75,12 +81,53 @@
         float: left;
         text-align: center;
     }
+
+    .section5 .person1 {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+
+    .section5 .person1 img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section5 .person2 {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 70%;
+    }
+
+    .section5 .person2 img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section5 .person3 {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 70%;
+    }
+
+    .section5 .person3 img {
+        display: block;
+        margin: 0 auto;
+    }
+
 }
 
 @media screen and (max-width:550px) {
     .container {
         width: calc(100% - 50px);
     }
+
     .box1 {
         width: 90%;
     }
