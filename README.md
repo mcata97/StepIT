@@ -15,7 +15,7 @@
 * [Modul 5.3 - Ex 1](https://mcata97.github.io/StepIT/Modul5.3/Ex1)
 * [Modul 5.3 - Ex 2](https://mcata97.github.io/StepIT/Modul5.3/Ex2)
 * [Modul 6.1 - Ex 1](https://mcata97.github.io/StepIT/Modul6.1/Aplicatie1)
-* [Responsive Landing Page](https://mcata97.github.io/StepIT/StepIT/Responsive-LandingPage-Project/index.html)
+* [Responsive Landing Page](https://mcata97.github.io/StepIT/StepIT/ResponsiveLandingPageProject/index.html)
 
 
 [Individual Work]
