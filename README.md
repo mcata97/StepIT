@@ -21,6 +21,7 @@
 [Individual Work]
 * [Contact Form 1](https://mcata97.github.io/StepIT/Individualwork/ContactForm1)
 * [Sign Up Form ](https://mcata97.github.io/StepIT/Individualwork/SignupForm)
+* [Clone BBC exercise ](https://mcata97.github.io/StepIT/Individualwork/CloneBBCproject)
 
 
 
